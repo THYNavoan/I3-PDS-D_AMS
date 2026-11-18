@@ -6,13 +6,13 @@ def celsuis_to_fahrenheit(celcuis, round_to=1):
     far = celcuis * 9 / 5 + 32
     return far
 celsuis_to_fahrenheit(0)
-print(celsuis_to_fahrenheit(98),"*F")
+print(celsuis_to_fahrenheit(98),"°F")
 
 def fahrenheit_to_celsuis(fahrenheit, round_to=1):
     cel = (fahrenheit-32) * 5 / 9
     return cel
 fahrenheit_to_celsuis(0)
-print(fahrenheit_to_celsuis(98.6), "*C")
+print(fahrenheit_to_celsuis(98.6), "°C")
 
 
 
