@@ -19,4 +19,4 @@ def letter_grade(score):
                     print("Invalid")
 score = [99, 90, 85.5, 72, 60, 59.9, -5, 101]
 for i in score:
-    print(letter_grade(i))
+    print(f"{i}->",letter_grade(i))
